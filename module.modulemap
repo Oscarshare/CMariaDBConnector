@@ -1,0 +1,5 @@
+module CMariaDBConnector [system] {
+  header "/usr/local/include/mariadb/mysql.h"
+  link "mariadbclient"
+  export *
+}
